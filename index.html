@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" data-lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amine Oualla – IT Auditor / Auditeur IT</title>
+<meta name="description" content="Amine Oualla, IT Auditor specialised in governance, IT risk and cybersecurity. Experience at BNP Paribas. Master IMT Business School.">
+<meta name="author" content="Amine Oualla">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://amineoualla.info">
+<meta property="og:title" content="Amine Oualla – IT Auditor">
+<meta property="og:description" content="IT Auditor specialised in governance, risk and cybersecurity. Experience at BNP Paribas.">
+<meta property="og:url" content="https://amineoualla.info">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Amine Oualla","jobTitle":"IT Auditor","url":"https://amineoualla.info","email":"amineoualla481@gmail.com","sameAs":["https://linkedin.com/in/amineoualla2001","https://github.com/Amine-oualla/it-audit-insurance-portfolio"],"alumniOf":"Institut Mines-Télécom Business School"}</script>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0d1f3c;--navy-mid:#1b3a6b;--gold:#c9a84c;--gold-light:#e8c97a;--gold-pale:#fdf8ee;--white:#ffffff;--text:#0f172a;--text-muted:#64748b;--border:#e2d5b0;--border-soft:#f0e8cf;--bg:#ffffff;--bg-alt:#fafaf7;--card-bg:#ffffff;--nav-bg:rgba(255,255,255,0.96);--shadow:rgba(13,31,60,0.12)}
+[data-theme="dark"]{--navy:#c9a84c;--navy-mid:#e8c97a;--gold:#c9a84c;--gold-light:#e8c97a;--gold-pale:#161a22;--white:#0d1117;--text:#e8eaf0;--text-muted:#8b9cb5;--border:#2a3448;--border-soft:#1e2a3a;--bg:#0d1117;--bg-alt:#111827;--card-bg:#161e2e;--nav-bg:rgba(13,17,23,0.96);--shadow:rgba(0,0,0,0.4)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:400;overflow-x:hidden;transition:background .3s,color .3s}
+#scroll-progress{position:fixed;top:0;left:0;height:3px;z-index:200;background:linear-gradient(90deg,var(--navy-mid),var(--gold));width:0%;transition:width .1s linear}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1rem 4rem;background:var(--nav-bg);border-bottom:1px solid var(--border-soft);backdrop-filter:blur(16px);box-shadow:0 1px 12px var(--shadow);transition:background .3s}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--navy);letter-spacing:.06em}
+.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{color:var(--text-muted);text-decoration:none;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;transition:color .2s;position:relative}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1.5px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.nav-links a:hover{color:var(--gold)}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+.nav-links a.active{color:var(--gold)}
+.nav-right{display:flex;align-items:center;gap:.8rem}
+.nav-btn{background:none;border:1.5px solid var(--border);height:36px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:all .2s;font-family:'Syne',sans-serif;font-weight:700}
+.nav-btn:hover{border-color:var(--gold);color:var(--gold)}
+.theme-toggle{width:36px;font-size:1rem}
+.lang-toggle{padding:0 .75rem;font-size:.7rem;letter-spacing:.08em;gap:.35rem}
+.lang-toggle .flag{font-size:.9rem}
+#hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;padding:0 4rem;padding-top:76px;background:linear-gradient(140deg,var(--bg-alt) 0%,var(--bg) 50%,var(--gold-pale) 100%);position:relative;overflow:hidden}
+.hero-deco{position:absolute;border-radius:50%;pointer-events:none}
+.hero-deco-1{right:-100px;top:-100px;width:500px;height:500px;background:radial-gradient(circle,rgba(201,168,76,.1) 0%,transparent 70%)}
+.hero-deco-2{left:20%;bottom:-80px;width:400px;height:400px;background:radial-gradient(circle,rgba(27,58,107,.07) 0%,transparent 70%)}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding-right:3rem;z-index:1}
+.hero-left>*{animation:fadeUp .7s ease both}
+.hero-left>*:nth-child(1){animation-delay:0s}
+.hero-left>*:nth-child(2){animation-delay:.1s}
+.hero-left>*:nth-child(3){animation-delay:.15s}
+.hero-left>*:nth-child(4){animation-delay:.2s}
+.hero-left>*:nth-child(5){animation-delay:.25s}
+.hero-left>*:nth-child(6){animation-delay:.3s}
+.hero-tag{display:inline-flex;align-items:center;gap:.6rem;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:1.8rem}
+.hero-tag-dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,.25);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(201,168,76,.25)}50%{box-shadow:0 0 0 10px rgba(201,168,76,.06)}}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(3rem,5vw,5.2rem);line-height:.95;letter-spacing:-.03em;color:var(--navy);margin-bottom:.6rem}
+.h1-sub{font-family:'Syne',sans-serif;font-weight:600;font-size:clamp(.9rem,1.5vw,1.15rem);color:var(--gold);letter-spacing:.06em;margin-bottom:1.8rem;display:block;text-transform:uppercase}
+.hero-desc{font-size:.9rem;line-height:1.9;color:var(--text-muted);max-width:46ch;margin-bottom:2.5rem}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.btn-primary{background:var(--navy);color:#fff;padding:.9rem 2.2rem;font-family:'Syne',sans-serif;font-weight:700;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;border-radius:6px;transition:all .2s;box-shadow:0 4px 14px var(--shadow);display:inline-flex;align-items:center;gap:.5rem}
+.btn-primary:hover{background:var(--navy-mid);transform:translateY(-2px);box-shadow:0 8px 24px var(--shadow)}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#a8832e);color:#fff;padding:.9rem 2.2rem;font-family:'Syne',sans-serif;font-weight:700;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;border-radius:6px;transition:all .2s;box-shadow:0 4px 16px rgba(201,168,76,.3);display:inline-flex;align-items:center;gap:.5rem}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,168,76,.45);opacity:.9}
+.btn-outline{background:transparent;color:var(--navy);padding:.9rem 2.2rem;font-family:'Syne',sans-serif;font-weight:700;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:2px solid var(--border);cursor:pointer;border-radius:6px;transition:all .2s;display:inline-flex;align-items:center;gap:.5rem}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+.hero-badges{display:flex;gap:.6rem;flex-wrap:wrap}
+.hero-badge{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.3);padding:.3rem .8rem;border-radius:3px;font-weight:500;transition:all .2s}
+.hero-badge:hover{background:rgba(201,168,76,.2);transform:translateY(-1px)}
+.hero-right{display:flex;align-items:center;justify-content:center;z-index:1;animation:fadeUp 1s ease .3s both}
+.hero-card{background:var(--card-bg);border:1.5px solid var(--border);border-radius:16px;padding:2.5rem;width:100%;max-width:400px;box-shadow:0 24px 64px var(--shadow);position:relative;overflow:hidden;transition:background .3s}
+.hero-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--navy),var(--gold))}
+.avatar-wrap{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.8rem}
+.avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--navy),var(--gold));display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:800;font-size:1.4rem;color:#fff;flex-shrink:0;box-shadow:0 4px 16px var(--shadow);border:3px solid var(--card-bg);outline:2px solid var(--border)}
+.avatar-info-name{font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;color:var(--text)}
+.avatar-info-role{font-size:.65rem;color:var(--text-muted);margin-top:.2rem}
+.avatar-info-badge{display:inline-block;font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;color:#10b981;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25);padding:.2rem .6rem;border-radius:3px;margin-top:.4rem}
+.card-label{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:600}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.stat-num{font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--navy);line-height:1}
+.stat-num sup{color:var(--gold);font-size:1rem}
+.stat-label{font-size:.6rem;color:var(--text-muted);letter-spacing:.1em;text-transform:uppercase;margin-top:.3rem}
+.stat-divider{grid-column:span 2;height:1px;background:var(--border-soft)}
+.logo-strip{margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border-soft)}
+.logo-strip-label{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.8rem}
+.logo-strip-logos{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.logo-txt{font-family:'Syne',sans-serif;font-weight:800;font-size:.85rem;color:var(--navy);letter-spacing:.06em}
+section{padding:7rem 4rem}
+.section-header{display:flex;align-items:center;gap:1.5rem;margin-bottom:4rem}
+.section-num{font-size:.6rem;letter-spacing:.2em;color:var(--gold);text-transform:uppercase;font-weight:600;white-space:nowrap}
+.section-line{flex:1;height:1px;background:var(--border-soft)}
+.section-title{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(1.8rem,2.8vw,2.6rem);letter-spacing:-.02em;color:var(--navy)}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+#about{background:var(--bg);padding:5rem 4rem;border-bottom:1px solid var(--border-soft)}
+.about-inner{display:grid;grid-template-columns:auto 1fr;gap:5rem;align-items:center}
+.about-avatar-wrap{width:200px;height:200px;border-radius:20px;background:linear-gradient(135deg,var(--navy) 0%,var(--gold) 100%);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-weight:800;font-size:3.5rem;color:#fff;box-shadow:0 20px 60px var(--shadow);position:relative}
+.about-avatar-wrap::after{content:'';position:absolute;inset:-8px;border:2px dashed var(--border);border-radius:24px;animation:spin 20s linear infinite;opacity:.4}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.about-name{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;font-weight:600}
+.about-text{font-size:.9rem;line-height:1.9;color:var(--text-muted);margin-bottom:1.2rem}
+.about-text strong{color:var(--text);font-weight:600}
+.about-highlight{display:flex;gap:2rem;flex-wrap:wrap;padding:1.4rem;background:var(--bg-alt);border:1.5px solid var(--border-soft);border-radius:10px}
+.about-highlight-item{text-align:center}
+.about-highlight-num{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--navy)}
+.about-highlight-lbl{font-size:.58rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.1em}
+#experience{background:var(--bg)}
+.exp-item{display:grid;grid-template-columns:220px 1fr;border-top:1.5px solid var(--border-soft);padding:3rem 0;gap:3rem;transition:background .2s}
+.exp-item:last-child{border-bottom:1.5px solid var(--border-soft)}
+.exp-item:hover{background:var(--gold-pale);border-radius:8px;padding-left:1rem;padding-right:1rem}
+.exp-meta{display:flex;flex-direction:column;gap:.9rem}
+.exp-period{font-size:.7rem;color:var(--gold);letter-spacing:.05em;font-weight:600}
+.exp-logo-box{background:var(--card-bg);border:1.5px solid var(--border);border-radius:8px;display:flex;align-items:center;justify-content:center;width:130px;height:65px;box-shadow:0 2px 8px var(--shadow);overflow:hidden}
+.exp-logo-txt{font-family:'Syne',sans-serif;font-weight:800;font-size:.85rem;color:var(--navy);letter-spacing:.04em;padding:0 .8rem;text-align:center}
+.exp-location{font-size:.62rem;color:var(--text-muted);letter-spacing:.1em;text-transform:uppercase}
+.exp-role{font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.8rem;color:var(--navy)}
+.exp-desc{font-size:.8rem;line-height:1.85;color:var(--text-muted);margin-bottom:1.2rem}
+.exp-bullets{list-style:none;display:flex;flex-direction:column;gap:.5rem;margin-bottom:1.4rem}
+.exp-bullets li{font-size:.75rem;color:var(--text);padding-left:1.4rem;position:relative;line-height:1.65}
+.exp-bullets li::before{content:'→';position:absolute;left:0;color:var(--gold);font-size:.7rem}
+.exp-techs{display:flex;flex-wrap:wrap;gap:.4rem}
+.exp-tech{font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.25);padding:.25rem .6rem;border-radius:3px;transition:all .2s}
+.exp-tech:hover{background:rgba(201,168,76,.18);transform:translateY(-1px)}
+#skills{background:var(--bg-alt)}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.skill-cat{background:var(--card-bg);padding:1.8rem;border:1.5px solid var(--border-soft);border-radius:10px;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.skill-cat:hover{transform:translateY(-3px);box-shadow:0 10px 30px var(--shadow)}
+.skill-cat::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--navy),var(--gold));transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.skill-cat:hover::before{transform:scaleX(1)}
+.skill-cat-name{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600}
+.skill-items{display:flex;flex-wrap:wrap;gap:.4rem}
+.skill-item{font-size:.7rem;color:var(--text);background:var(--bg-alt);padding:.3rem .7rem;border:1px solid var(--border-soft);border-radius:3px;transition:all .2s;cursor:default}
+.skill-item:hover{background:rgba(201,168,76,.12);color:var(--navy);border-color:var(--gold);transform:translateY(-1px)}
+.skill-bar-group{display:flex;flex-direction:column;gap:1rem}
+.skill-bar-label{display:flex;justify-content:space-between;font-size:.72rem;color:var(--text);margin-bottom:.4rem;font-weight:500}
+.skill-bar-track{height:5px;background:var(--border-soft);border-radius:3px;overflow:hidden}
+.skill-bar-fill{height:100%;background:linear-gradient(90deg,var(--navy),var(--gold));border-radius:3px;width:0%;transition:width 1.2s ease}
+#formation{background:var(--bg)}
+.formation-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.formation-item{background:var(--bg-alt);padding:1.6rem;border-left:3px solid var(--gold);border-radius:0 6px 6px 0;margin-bottom:.8rem;transition:transform .2s}
+.formation-item:hover{transform:translateX(4px)}
+.formation-year{font-size:.65rem;color:var(--gold);letter-spacing:.1em;margin-bottom:.6rem;font-weight:600}
+.formation-degree{font-family:'Syne',sans-serif;font-weight:700;font-size:.9rem;margin-bottom:.3rem;color:var(--navy)}
+.formation-school{font-size:.7rem;color:var(--text-muted)}
+.certif-list{display:flex;flex-direction:column;gap:.6rem}
+.certif-item{display:flex;gap:1rem;align-items:flex-start;padding:1rem 1.2rem;background:var(--bg-alt);border:1.5px solid var(--border-soft);border-radius:8px;transition:transform .2s,border-color .2s}
+.certif-item:hover{transform:translateX(4px);border-color:var(--gold)}
+.certif-icon{width:2.2rem;height:2.2rem;background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.3);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.85rem;flex-shrink:0}
+.certif-name{font-size:.73rem;line-height:1.5;color:var(--text)}
+.badge-wip{font-size:.52rem;letter-spacing:.1em;text-transform:uppercase;color:#f59e0b;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.25);padding:.15rem .45rem;border-radius:3px;margin-left:.4rem;font-weight:600}
+.certif-org{font-size:.6rem;color:var(--text-muted);margin-top:.2rem}
+#projets{background:var(--bg-alt)}
+.projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
+.project-card{background:var(--card-bg);padding:2rem;border:1.5px solid var(--border-soft);border-radius:12px;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.project-card:hover{transform:translateY(-5px);box-shadow:0 16px 48px var(--shadow)}
+.project-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--navy),var(--gold));transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.project-card:hover::after{transform:scaleX(1)}
+.project-type{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;font-weight:600}
+.project-name{font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.7rem;color:var(--navy)}
+.project-desc{font-size:.74rem;color:var(--text-muted);line-height:1.75;margin-bottom:1rem;flex:1}
+.project-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.6rem}
+.project-stack{display:flex;flex-wrap:wrap;gap:.4rem}
+.project-tag{font-size:.6rem;color:var(--text-muted);border:1px solid var(--border-soft);padding:.2rem .5rem;border-radius:3px;background:var(--bg-alt)}
+.project-link{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-decoration:none;font-weight:600;display:flex;align-items:center;gap:.3rem;transition:gap .2s}
+.project-link:hover{gap:.6rem}
+.project-tag-featured{position:absolute;top:1.2rem;right:1.2rem;font-size:.52rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.3);padding:.2rem .5rem;border-radius:3px;font-weight:600}
+#contact{background:linear-gradient(135deg,var(--navy) 0%,#0d1f3c 50%,#08142a 100%);color:#e8edf5;position:relative;overflow:hidden}
+#contact::before{content:'';position:absolute;bottom:-200px;right:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(201,168,76,.08) 0%,transparent 70%);pointer-events:none}
+#contact .section-title{color:#e8edf5}
+#contact .section-num{color:var(--gold)}
+#contact .section-line{background:rgba(255,255,255,.1)}
+.contact-inner{display:grid;grid-template-columns:1fr;gap:3rem;align-items:start;position:relative;z-index:1;max-width:680px}
+.contact-tagline{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(1.8rem,3vw,2.8rem);line-height:1.1;letter-spacing:-.02em;margin-bottom:1.5rem;color:#e8edf5}
+.contact-tagline-hl{color:var(--gold-light)}
+.contact-sub{font-size:.82rem;color:#8b9cb5;line-height:1.8;margin-bottom:2rem}
+.contact-links{display:flex;flex-direction:column;gap:8px;margin-bottom:2rem}
+.contact-link{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.4rem;background:rgba(255,255,255,.06);text-decoration:none;color:#e8edf5;font-size:.8rem;border:1px solid rgba(201,168,76,.2);border-radius:8px;transition:all .2s}
+.contact-link:hover{background:rgba(201,168,76,.1);border-color:rgba(201,168,76,.5);transform:translateX(4px)}
+.contact-link-label{color:#8b9cb5;font-size:.58rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:.2rem}
+.contact-link-arrow{color:var(--gold-light);font-size:1rem;transition:transform .2s}
+.contact-link:hover .contact-link-arrow{transform:translateX(4px)}
+.contact-info-item{display:flex;gap:1rem;align-items:flex-start;padding:1.2rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.contact-info-icon{width:2.2rem;height:2.2rem;background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--gold-light);font-size:.85rem;flex-shrink:0}
+.contact-info-label{font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:#8b9cb5;margin-bottom:.3rem}
+.contact-info-value{font-size:.82rem;color:#e8edf5}
+footer{padding:2rem 4rem;border-top:1px solid rgba(255,255,255,.07);background:#08142a;display:flex;justify-content:space-between;align-items:center;font-size:.62rem;color:#4a5a7b;letter-spacing:.1em}
+.footer-logo{font-family:'Syne',sans-serif;font-weight:800;color:var(--gold);font-size:1rem}
+.footer-links{display:flex;gap:1.5rem}
+.footer-links a{color:#4a5a7b;text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--gold)}
+#back-to-top{position:fixed;bottom:2rem;right:2rem;z-index:99;width:44px;height:44px;border-radius:10px;background:var(--navy);color:#fff;border:none;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px var(--shadow);opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s,background .2s;pointer-events:none}
+#back-to-top.visible{opacity:1;transform:translateY(0);pointer-events:all}
+#back-to-top:hover{background:var(--navy-mid)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+.hamburger span{display:block;width:24px;height:2px;background:var(--navy);border-radius:2px;transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;top:58px;left:0;right:0;background:var(--nav-bg);z-index:99;flex-direction:column;padding:1rem 1.5rem;border-bottom:1px solid var(--border-soft);box-shadow:0 8px 24px var(--shadow);backdrop-filter:blur(16px)}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:var(--text);text-decoration:none;font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;padding:.9rem 0;border-bottom:1px solid var(--border-soft)}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu a:hover{color:var(--gold)}
+@media(max-width:900px){nav{padding:1rem 1.5rem}.nav-links{display:none}.hamburger{display:flex}section{padding:4rem 1.5rem}#hero{grid-template-columns:1fr;padding:6rem 1.5rem 3rem;min-height:auto}.hero-right{display:none}.skills-grid{grid-template-columns:1fr 1fr}.exp-item{grid-template-columns:1fr;gap:1rem}.formation-grid{grid-template-columns:1fr}.projects-grid{grid-template-columns:1fr}footer{flex-direction:column;gap:.5rem;text-align:center;padding:1.5rem}#about{padding:4rem 1.5rem}.about-inner{grid-template-columns:1fr;gap:2rem}.about-avatar-wrap{display:none}}
+@media(max-width:600px){nav{padding:.8rem 1.2rem}section{padding:3rem 1.2rem}#hero{padding:5rem 1.2rem 2.5rem}h1{font-size:2.6rem}.hero-ctas{flex-direction:column}.btn-primary,.btn-gold,.btn-outline{width:100%;justify-content:center;padding:1rem}.section-title{font-size:1.6rem}.skills-grid{grid-template-columns:1fr}footer{padding:1.2rem}.footer-links{display:none}}
+</style>
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">A<span>O</span></div>
+  <ul class="nav-links">
+    <li><a href="#about"      data-fr="À propos"    data-en="About">À propos</a></li>
+    <li><a href="#experience" data-fr="Expérience"  data-en="Experience">Expérience</a></li>
+    <li><a href="#skills"     data-fr="Compétences" data-en="Skills">Compétences</a></li>
+    <li><a href="#formation"  data-fr="Formation"   data-en="Education">Formation</a></li>
+    <li><a href="#projets"    data-fr="Projets"     data-en="Projects">Projets</a></li>
+    <li><a href="#contact"    data-fr="Contact"     data-en="Contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-btn lang-toggle" id="langToggle" aria-label="Switch language">
+      <span class="flag">🇬🇧</span><span id="langLabel">EN</span>
+    </button>
+    <button class="nav-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about"      onclick="closeMenu()" data-fr="À propos"    data-en="About">À propos</a>
+  <a href="#experience" onclick="closeMenu()" data-fr="Expérience"  data-en="Experience">Expérience</a>
+  <a href="#skills"     onclick="closeMenu()" data-fr="Compétences" data-en="Skills">Compétences</a>
+  <a href="#formation"  onclick="closeMenu()" data-fr="Formation"   data-en="Education">Formation</a>
+  <a href="#projets"    onclick="closeMenu()" data-fr="Projets"     data-en="Projects">Projets</a>
+  <a href="#contact"    onclick="closeMenu()" data-fr="Contact"     data-en="Contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-deco hero-deco-1"></div>
+  <div class="hero-deco hero-deco-2"></div>
+  <div class="hero-left">
+    <div class="hero-tag">
+      <div class="hero-tag-dot"></div>
+      <span data-fr="Ouvert à de nouvelles opportunités · CDI / Mission" data-en="Open to new opportunities · Permanent / Contract">Ouvert à de nouvelles opportunités · CDI / Mission</span>
+    </div>
+    <h1>Amine<br>Oualla</h1>
+    <span class="h1-sub" data-fr="Auditeur / Inspecteur IT" data-en="IT Auditor / IT Inspector">Auditeur / Inspecteur IT</span>
+    <p class="hero-desc"
+      data-fr="Auditeur IT orienté risques, gouvernance et cybersécurité. Expérience en diagnostic IT, ITGC et analyses de données (SQL/Python) en environnement bancaire chez BNP Paribas. Master IMT Business School."
+      data-en="IT Auditor focused on risk, governance and cybersecurity. Hands-on experience in IT diagnostics, ITGC testing and data analysis (SQL/Python) in a banking environment at BNP Paribas. Master's from IMT Business School.">
+      Auditeur IT orienté risques, gouvernance et cybersécurité. Expérience en diagnostic IT, ITGC et analyses de données (SQL/Python) en environnement bancaire chez BNP Paribas. Master IMT Business School.
+    </p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn-primary" data-fr="✉ Me contacter" data-en="✉ Contact me">✉ Me contacter</a>
+      <a href="cv-amine-oualla.pdf" download class="btn-gold" data-fr="↓ Télécharger le CV" data-en="↓ Download Resume">↓ Télécharger le CV</a>
+      <a href="#experience" class="btn-outline" data-fr="Voir mon parcours" data-en="View my experience">Voir mon parcours</a>
+    </div>
+    <div class="hero-badges">
+      <span class="hero-badge">ITGC</span>
+      <span class="hero-badge">SAP</span>
+      <span class="hero-badge">SQL / Python</span>
+      <span class="hero-badge">Risk Assessment</span>
+      <span class="hero-badge" data-fr="CISA (en cours)" data-en="CISA (in progress)">CISA (en cours)</span>
+      <span class="hero-badge">Power BI</span>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-card">
+      <div class="avatar-wrap">
+        <div class="avatar">AO</div>
+        <div>
+          <div class="avatar-info-name">Amine Oualla</div>
+          <div class="avatar-info-role" data-fr="Auditeur IT · 24 ans" data-en="IT Auditor · 24 y.o.">Auditeur IT · 24 ans</div>
+          <div class="avatar-info-badge" data-fr="✔ Disponible immédiatement" data-en="✔ Available immediately">✔ Disponible immédiatement</div>
+        </div>
+      </div>
+      <div class="card-label" data-fr="// Profil en chiffres" data-en="// Profile in numbers">// Profil en chiffres</div>
+      <div class="stat-grid">
+        <div class="stat"><div class="stat-num">3<sup>+</sup></div><div class="stat-label" data-fr="Ans d'expérience" data-en="Years experience">Ans d'expérience</div></div>
+        <div class="stat"><div class="stat-num">2</div><div class="stat-label" data-fr="Grands comptes" data-en="Major clients">Grands comptes</div></div>
+        <div class="stat-divider"></div><div class="stat-divider"></div>
+        <div class="stat"><div class="stat-num">5</div><div class="stat-label" data-fr="Certifications" data-en="Certifications">Certifications</div></div>
+        <div class="stat"><div class="stat-num">15<sup>+</sup></div><div class="stat-label" data-fr="Outils maîtrisés" data-en="Tools mastered">Outils maîtrisés</div></div>
+      </div>
+      <div class="logo-strip">
+        <div class="logo-strip-label" data-fr="// Entreprises clés" data-en="// Key employers">// Entreprises clés</div>
+        <div class="logo-strip-logos">
+          <span class="logo-txt">BNP Paribas</span>
+          <span class="logo-txt">SensAi</span>
+          <span class="logo-txt">Lafarge</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-inner reveal">
+    <div class="about-avatar-wrap">AO</div>
+    <div>
+      <div class="about-name" data-fr="// À propos" data-en="// About me">// À propos</div>
+      <p class="about-text"
+        data-fr="Diplômé d'un <strong>Master en Ingénierie des Systèmes d'Information à l'IMT Business School</strong>, je me suis spécialisé dans l'audit IT, la gouvernance et la gestion des risques. Ce qui me passionne, c'est de comprendre comment les systèmes d'information fonctionnent — et surtout là où ils peuvent défaillir."
+        data-en="Holding a <strong>Master's in Information Systems Engineering from IMT Business School</strong>, I have specialised in IT audit, governance and risk management. What drives me is understanding how information systems work — and especially where they can fail.">
+        Diplômé d'un <strong>Master en Ingénierie des Systèmes d'Information à l'IMT Business School</strong>, je me suis spécialisé dans l'audit IT, la gouvernance et la gestion des risques. Ce qui me passionne, c'est de comprendre comment les systèmes d'information fonctionnent — et surtout là où ils peuvent défaillir.
+      </p>
+      <p class="about-text"
+        data-fr="Chez <strong>BNP Paribas</strong>, j'ai conduit des missions d'audit IT sur des applications critiques dans le cadre du programme <strong>Sustainable IT</strong> : évaluation des risques, tests ITGC, entretiens métiers, recommandations et suivi de plans d'action. Actuellement chez <strong>SensAi</strong>, je réalise des diagnostics IT et analyses de données (SQL/Python) pour détecter anomalies et faiblesses de contrôle."
+        data-en="At <strong>BNP Paribas</strong>, I led IT audit engagements on critical applications within the <strong>Sustainable IT</strong> programme: risk assessment, ITGC testing, business interviews, recommendations and action plan follow-up. Currently at <strong>SensAi</strong>, I perform IT diagnostics and data analysis (SQL/Python) to detect anomalies and control weaknesses.">
+        Chez <strong>BNP Paribas</strong>, j'ai conduit des missions d'audit IT sur des applications critiques dans le cadre du programme <strong>Sustainable IT</strong> : évaluation des risques, tests ITGC, entretiens métiers, recommandations et suivi de plans d'action. Actuellement chez <strong>SensAi</strong>, je réalise des diagnostics IT et analyses de données (SQL/Python) pour détecter anomalies et faiblesses de contrôle.
+      </p>
+      <div class="about-highlight">
+        <div class="about-highlight-item"><div class="about-highlight-num">ITGC</div><div class="about-highlight-lbl" data-fr="Tests réalisés" data-en="Tests conducted">Tests réalisés</div></div>
+        <div class="about-highlight-item"><div class="about-highlight-num">BNP</div><div class="about-highlight-lbl" data-fr="Paribas, 2 ans" data-en="Paribas, 2 yrs">Paribas, 2 ans</div></div>
+        <div class="about-highlight-item"><div class="about-highlight-num">CISA</div><div class="about-highlight-lbl" data-fr="En cours 2026" data-en="In progress 2026">En cours 2026</div></div>
+        <div class="about-highlight-item"><div class="about-highlight-num">FR/EN</div><div class="about-highlight-lbl" data-fr="Bilingue" data-en="Bilingual">Bilingue</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header reveal">
+    <span class="section-num" data-fr="01 / Expérience" data-en="01 / Experience">01 / Expérience</span>
+    <div class="section-line"></div>
+    <h2 class="section-title" data-fr="Parcours Professionnel" data-en="Professional Experience">Parcours Professionnel</h2>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-meta">
+      <div class="exp-period" data-fr="Depuis nov. 2025" data-en="Since Nov. 2025">Depuis nov. 2025</div>
+      <div class="exp-logo-box"><div class="exp-logo-txt">SensAi</div></div>
+      <div class="exp-location">Paris, France</div>
+    </div>
+    <div>
+      <div class="exp-role" data-fr="Auditeur IT – Startup Technologique (Data &amp; IA)" data-en="IT Auditor – Tech Startup (Data &amp; AI)">Auditeur IT – Startup Technologique (Data &amp; IA)</div>
+      <p class="exp-desc" data-fr="Mission d'audit IT au sein d'une startup spécialisée en solutions data et IA. Analyse des processus IT, identification des risques opérationnels et production de livrables structurés." data-en="IT audit engagement within a data and AI startup. Analysis of IT processes, identification of operational risks and production of structured audit deliverables.">Mission d'audit IT au sein d'une startup spécialisée en solutions data et IA. Analyse des processus IT, identification des risques opérationnels et production de livrables structurés.</p>
+      <ul class="exp-bullets">
+        <li data-fr="Analyse des processus IT et identification des risques opérationnels" data-en="Analysis of IT processes and identification of operational risks">Analyse des processus IT et identification des risques opérationnels</li>
+        <li data-fr="Détection d'anomalies et faiblesses de contrôle via analyses de données (SQL, Python)" data-en="Detection of anomalies and control weaknesses through data analysis (SQL, Python)">Détection d'anomalies et faiblesses de contrôle via analyses de données (SQL, Python)</li>
+        <li data-fr="Définition d'indicateurs de contrôle et de performance IT (KPIs)" data-en="Definition of IT control and performance indicators (KPIs)">Définition d'indicateurs de contrôle et de performance IT (KPIs)</li>
+        <li data-fr="Recommandations correctives pour renforcer la fiabilité des données" data-en="Corrective recommendations to strengthen data reliability">Recommandations correctives pour renforcer la fiabilité des données</li>
+        <li data-fr="Rédaction de livrables d'audit structurés pour équipes IT et métiers" data-en="Drafting of structured audit deliverables for IT and business teams">Rédaction de livrables d'audit structurés pour équipes IT et métiers</li>
+      </ul>
+      <div class="exp-techs"><span class="exp-tech">SQL</span><span class="exp-tech">Python</span><span class="exp-tech">Risk Assessment</span><span class="exp-tech">KPI</span><span class="exp-tech">IT Audit</span></div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-meta">
+      <div class="exp-period">09/2022 – 10/2024</div>
+      <div class="exp-logo-box"><div class="exp-logo-txt">BNP Paribas</div></div>
+      <div class="exp-location">Montreuil, France</div>
+    </div>
+    <div>
+      <div class="exp-role" data-fr="IT Risk Analyst – Programme Sustainable IT · Alternance" data-en="IT Risk Analyst – Sustainable IT Programme · Apprenticeship">IT Risk Analyst – Programme Sustainable IT · Alternance</div>
+      <p class="exp-desc" data-fr="Intégré au sein de l'IT Group de BNP Paribas sur le programme Sustainable IT. Missions d'audit et d'évaluation des risques sur des applications critiques de la banque." data-en="Embedded within BNP Paribas IT Group on the Sustainable IT programme. Audit and risk assessment engagements on the bank's critical applications.">Intégré au sein de l'IT Group de BNP Paribas sur le programme Sustainable IT. Missions d'audit et d'évaluation des risques sur des applications critiques de la banque.</p>
+      <ul class="exp-bullets">
+        <li data-fr="Diagnostic IT d'applications critiques (Sustainable IT)" data-en="IT diagnostic of critical applications (Sustainable IT)">Diagnostic IT d'applications critiques (Sustainable IT)</li>
+        <li data-fr="Identification et évaluation des risques IT (conformité CSRD, intégrité des données)" data-en="Identification and assessment of IT risks (CSRD compliance, data integrity)">Identification et évaluation des risques IT (conformité CSRD, intégrité des données)</li>
+        <li data-fr="Interviews auprès des équipes IT, Sécurité et Métiers" data-en="Interviews with IT, Security and Business teams">Interviews auprès des équipes IT, Sécurité et Métiers</li>
+        <li data-fr="Tests ITGC &amp; analyses de données (Excel, Power BI)" data-en="ITGC testing &amp; data analysis (Excel, Power BI)">Tests ITGC &amp; analyses de données (Excel, Power BI)</li>
+        <li data-fr="Rédaction de constats, recommandations et suivi des plans d'actions" data-en="Drafting of findings, recommendations and monitoring of action plans">Rédaction de constats, recommandations et suivi des plans d'actions</li>
+        <li data-fr="Coordination des parties prenantes, préparation des comités de gouvernance" data-en="Stakeholder coordination, preparation of governance committees">Coordination des parties prenantes, préparation des comités de gouvernance</li>
+      </ul>
+      <div class="exp-techs"><span class="exp-tech">ITGC</span><span class="exp-tech">Power BI</span><span class="exp-tech">Excel</span><span class="exp-tech">CSRD</span><span class="exp-tech">IT Governance</span><span class="exp-tech" data-fr="Audit interne" data-en="Internal Audit">Audit interne</span></div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-meta">
+      <div class="exp-period">06/2021 – 08/2021</div>
+      <div class="exp-logo-box"><div class="exp-logo-txt">Lafarge Holcim</div></div>
+      <div class="exp-location" data-fr="Meknès, Maroc" data-en="Meknes, Morocco">Meknès, Maroc</div>
+    </div>
+    <div>
+      <div class="exp-role" data-fr="Stagiaire – Audit des Processus Finance" data-en="Intern – Finance Process Audit">Stagiaire – Audit des Processus Finance</div>
+      <p class="exp-desc" data-fr="Audit interne des processus financiers. Cartographie des processus, optimisation SAP et réduction des délais de traitement." data-en="Internal audit of financial processes. Process mapping, SAP optimisation and reduction of processing times.">Audit interne des processus financiers. Cartographie des processus, optimisation SAP et réduction des délais de traitement.</p>
+      <ul class="exp-bullets">
+        <li data-fr="Cartographie et audit des processus financiers pour identifier les gains d'efficacité" data-en="Mapping and audit of financial processes to identify efficiency gains">Cartographie et audit des processus financiers pour identifier les gains d'efficacité</li>
+        <li data-fr="Développement d'un guide utilisateur SAP — réduction des erreurs de saisie de 30%" data-en="Development of a SAP user guide — reduced data entry errors by 30%">Développement d'un guide utilisateur SAP — réduction des erreurs de saisie de 30%</li>
+        <li data-fr="Optimisation des workflows — réduction des temps de traitement de 20%" data-en="Workflow optimisation — reduced transaction processing times by 20%">Optimisation des workflows — réduction des temps de traitement de 20%</li>
+      </ul>
+      <div class="exp-techs"><span class="exp-tech">SAP (MM, SD)</span><span class="exp-tech" data-fr="Audit Processus" data-en="Process Audit">Audit Processus</span><span class="exp-tech">Finance</span><span class="exp-tech">UML</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <span class="section-num" data-fr="02 / Compétences" data-en="02 / Skills">02 / Compétences</span>
+    <div class="section-line"></div>
+    <h2 class="section-title" data-fr="Stack &amp; Expertises" data-en="Skills &amp; Expertise">Stack &amp; Expertises</h2>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="🔍 Audit IT &amp; Conformité" data-en="🔍 IT Audit &amp; Compliance">🔍 Audit IT &amp; Conformité</div><div class="skill-items"><span class="skill-item">ITGC</span><span class="skill-item">IT Application Controls</span><span class="skill-item">Risk Assessment</span><span class="skill-item">CSRD</span><span class="skill-item" data-fr="Contrôle interne" data-en="Internal Control">Contrôle interne</span></div></div>
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="🏢 ERP &amp; Systèmes" data-en="🏢 ERP &amp; Systems">🏢 ERP &amp; Systèmes</div><div class="skill-items"><span class="skill-item">SAP (MM, SD)</span><span class="skill-item">Oracle</span><span class="skill-item">Power BI</span><span class="skill-item">Power Apps</span><span class="skill-item">JIRA</span><span class="skill-item">MS Project</span></div></div>
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="📊 Data &amp; Analyse" data-en="📊 Data &amp; Analysis">📊 Data &amp; Analyse</div><div class="skill-items"><span class="skill-item">SQL</span><span class="skill-item">Python</span><span class="skill-item">ETL</span><span class="skill-item" data-fr="Dashboard KPI" data-en="KPI Dashboard">Dashboard KPI</span><span class="skill-item" data-fr="Excel avancé" data-en="Advanced Excel">Excel avancé</span></div></div>
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="💻 Développement" data-en="💻 Development">💻 Développement</div><div class="skill-items"><span class="skill-item">Python</span><span class="skill-item">Java</span><span class="skill-item">SQL</span><span class="skill-item">Azure DevOps</span></div></div>
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="🛡 Cybersécurité" data-en="🛡 Cybersecurity">🛡 Cybersécurité</div><div class="skill-items"><span class="skill-item">Cybersecurity Fundamentals</span><span class="skill-item" data-fr="Éthique pro." data-en="Pro. Ethics">Éthique pro.</span><span class="skill-item" data-fr="Sensibilisation" data-en="Awareness">Sensibilisation</span></div></div>
+    <div class="skill-cat"><div class="skill-cat-name" data-fr="📐 Méthodes &amp; Gestion" data-en="📐 Methods &amp; Management">📐 Méthodes &amp; Gestion</div><div class="skill-items"><span class="skill-item">Agile / Scrum</span><span class="skill-item" data-fr="Audit interne" data-en="Internal Audit">Audit interne</span><span class="skill-item" data-fr="Gouvernance IT" data-en="IT Governance">Gouvernance IT</span><span class="skill-item" data-fr="Plan d'action" data-en="Action Plan">Plan d'action</span></div></div>
+  </div>
+
+  <div style="margin-top:2.5rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem;" class="reveal">
+    <div>
+      <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:600;" data-fr="// Niveaux de maîtrise" data-en="// Proficiency levels">// Niveaux de maîtrise</div>
+      <div class="skill-bar-group">
+        <div><div class="skill-bar-label"><span data-fr="Audit IT &amp; Méthodologie" data-en="IT Audit &amp; Methodology">Audit IT &amp; Méthodologie</span><span style="color:var(--gold)">100%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+        <div><div class="skill-bar-label"><span>IT Risk Assessment &amp; ITGC</span><span style="color:var(--gold)">80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div><div class="skill-bar-label"><span data-fr="Cybersécurité" data-en="Cybersecurity">Cybersécurité</span><span style="color:var(--gold)">80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div><div class="skill-bar-label"><span>Data Analysis (SQL / Python)</span><span style="color:var(--gold)">75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:600;" data-fr="// Langues" data-en="// Languages">// Langues</div>
+      <div class="skill-bar-group">
+        <div><div class="skill-bar-label"><span data-fr="Français (C2)" data-en="French (C2)">Français (C2)</span><span style="color:var(--gold)">100%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+        <div><div class="skill-bar-label"><span data-fr="Arabe (C2)" data-en="Arabic (C2)">Arabe (C2)</span><span style="color:var(--gold)">100%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div></div>
+        <div><div class="skill-bar-label"><span data-fr="Anglais (B2)" data-en="English (B2)">Anglais (B2)</span><span style="color:var(--gold)">80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div><div class="skill-bar-label"><span data-fr="Espagnol" data-en="Spanish">Espagnol</span><span style="color:var(--gold)">60%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATION -->
+<section id="formation">
+  <div class="section-header reveal">
+    <span class="section-num" data-fr="03 / Formation" data-en="03 / Education">03 / Formation</span>
+    <div class="section-line"></div>
+    <h2 class="section-title" data-fr="Parcours Académique" data-en="Academic Background">Parcours Académique</h2>
+  </div>
+  <div class="formation-grid">
+    <div class="reveal">
+      <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600;" data-fr="// Diplômes" data-en="// Degrees">// Diplômes</div>
+      <div class="formation-item">
+        <div class="formation-year">2021 – 2024</div>
+        <div class="formation-degree" data-fr="Master – Ingénierie des Systèmes d'Information" data-en="Master's – Information Systems Engineering">Master – Ingénierie des Systèmes d'Information</div>
+        <div class="formation-school">Institut Mines-Télécom Business School (IMT-BS) · Paris</div>
+      </div>
+      <div class="formation-item">
+        <div class="formation-year">2019 – 2021</div>
+        <div class="formation-degree" data-fr="CPGE – Prépa ECS (Économique et Commerciale Scientifique)" data-en="Preparatory Classes – Business &amp; Economics (ECS)">CPGE – Prépa ECS</div>
+        <div class="formation-school" data-fr="FirstPrepa · Meknès, Maroc" data-en="FirstPrepa · Meknes, Morocco">FirstPrepa · Meknès, Maroc</div>
+      </div>
+      <div class="formation-item">
+        <div class="formation-year">2018 – 2019</div>
+        <div class="formation-degree" data-fr="Baccalauréat Sciences Mathématiques" data-en="Baccalaureate – Mathematics">Baccalauréat Sciences Mathématiques</div>
+        <div class="formation-school" data-fr="Lycée Emile · Meknès, Maroc" data-en="Lycée Emile · Meknes, Morocco">Lycée Emile · Meknès, Maroc</div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div style="font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600;" data-fr="// Certifications" data-en="// Certifications">// Certifications</div>
+      <div class="certif-list">
+        <div class="certif-item"><div class="certif-icon">🎯</div><div><div class="certif-name">CISA – Certified Information Systems Auditor <span class="badge-wip" data-fr="En cours" data-en="In progress">En cours</span></div><div class="certif-org">ISACA · 2026</div></div></div>
+        <div class="certif-item"><div class="certif-icon">✦</div><div><div class="certif-name">IT Systems Audit, Control &amp; Assurance</div><div class="certif-org">Hong Kong University of Science and Technology · 2025</div></div></div>
+        <div class="certif-item"><div class="certif-icon">✦</div><div><div class="certif-name">Certified Scrum Master (CSM)</div><div class="certif-org">Scrum Alliance · 2024</div></div></div>
+        <div class="certif-item"><div class="certif-icon">✦</div><div><div class="certif-name" data-fr="Gestion de Projet Agile" data-en="Agile Project Management">Gestion de Projet Agile</div><div class="certif-org">HP LIFE</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projets">
+  <div class="section-header reveal">
+    <span class="section-num" data-fr="04 / Projets" data-en="04 / Projects">04 / Projets</span>
+    <div class="section-line"></div>
+    <h2 class="section-title" data-fr="Projets &amp; Réalisations" data-en="Projects &amp; Achievements">Projets &amp; Réalisations</h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-tag-featured">Public · GitHub</div>
+      <div class="project-type" data-fr="Portfolio · Audit IT" data-en="Portfolio · IT Audit">Portfolio · Audit IT</div>
+      <div class="project-name" data-fr="Portfolio IT Audit – Secteur Assurance" data-en="IT Audit Portfolio – Insurance Sector">Portfolio IT Audit – Secteur Assurance</div>
+      <p class="project-desc"
+        data-fr="Portfolio complet d'audit IT dans le secteur de l'assurance : méthodologies ITGC, analyses de risques, scripts SQL/Python de détection d'anomalies et livrables d'audit structurés."
+        data-en="Comprehensive IT audit portfolio in the insurance sector: ITGC methodologies, risk analyses, SQL/Python anomaly detection scripts and structured audit deliverables.">
+        Portfolio complet d'audit IT dans le secteur de l'assurance : méthodologies ITGC, analyses de risques, scripts SQL/Python de détection d'anomalies et livrables d'audit structurés.
+      </p>
+      <div class="project-footer">
+        <div class="project-stack"><span class="project-tag">SQL</span><span class="project-tag">Python</span><span class="project-tag">ITGC</span><span class="project-tag">Risk</span></div>
+        <a href="https://github.com/Amine-oualla/it-audit-insurance-portfolio" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:.1s">
+      <div class="project-type" data-fr="Mission BNP Paribas" data-en="BNP Paribas Engagement">Mission BNP Paribas</div>
+      <div class="project-name" data-fr="Diagnostic IT – Programme Sustainable IT" data-en="IT Diagnostic – Sustainable IT Programme">Diagnostic IT – Programme Sustainable IT</div>
+      <p class="project-desc"
+        data-fr="Évaluation des risques IT d'applications critiques (conformité CSRD). Tests ITGC, interviews multi-équipes, mesure de l'empreinte environnementale des SI et suivi des plans d'actions."
+        data-en="IT risk assessment of critical applications (CSRD compliance). ITGC testing, multi-team interviews, IT environmental footprint measurement and monitoring of action plans.">
+        Évaluation des risques IT d'applications critiques (conformité CSRD). Tests ITGC, interviews multi-équipes, mesure de l'empreinte environnementale des SI et suivi des plans d'actions.
+      </p>
+      <div class="project-footer"><div class="project-stack"><span class="project-tag">Power BI</span><span class="project-tag">Excel</span><span class="project-tag">CSRD</span><span class="project-tag">ITGC</span></div></div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:.2s">
+      <div class="project-type" data-fr="Mission Lafarge Holcim" data-en="Lafarge Holcim Engagement">Mission Lafarge Holcim</div>
+      <div class="project-name" data-fr="Guide SAP &amp; Optimisation Processus" data-en="SAP User Guide &amp; Process Optimisation">Guide SAP &amp; Optimisation Processus</div>
+      <p class="project-desc"
+        data-fr="Audit et cartographie des processus financiers. Guide SAP qui a réduit les erreurs de saisie de 30% et optimisé les délais de traitement de 20%."
+        data-en="Audit and mapping of financial processes. SAP user guide that reduced data entry errors by 30% and cut processing times by 20%.">
+        Audit et cartographie des processus financiers. Guide SAP qui a réduit les erreurs de saisie de 30% et optimisé les délais de traitement de 20%.
+      </p>
+      <div class="project-footer"><div class="project-stack"><span class="project-tag">SAP MM</span><span class="project-tag">SAP SD</span><span class="project-tag">Finance</span><span class="project-tag">UML</span></div></div>
+    </div>
+    <div class="project-card reveal" style="transition-delay:.3s">
+      <div class="project-type" data-fr="Startup · SensAi" data-en="Startup · SensAi">Startup · SensAi</div>
+      <div class="project-name" data-fr="Équipement Sportif Connecté &amp; App Coaching" data-en="Connected Sports Equipment &amp; Coaching App">Équipement Sportif Connecté &amp; App Coaching</div>
+      <p class="project-desc"
+        data-fr="Lead du développement d'un équipement sportif connecté et d'une application mobile de coaching IA. Analyse de performance produit et stratégie d'approvisionnement responsable."
+        data-en="Led the development of connected sports equipment and an AI coaching mobile app. Product performance analysis and responsible sourcing strategy.">
+        Lead du développement d'un équipement sportif connecté et d'une application mobile de coaching IA. Analyse de performance produit et stratégie d'approvisionnement responsable.
+      </p>
+      <div class="project-footer"><div class="project-stack"><span class="project-tag">IoT</span><span class="project-tag">Mobile</span><span class="project-tag">Data</span><span class="project-tag">Agile</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <span class="section-num" data-fr="05 / Contact" data-en="05 / Contact">05 / Contact</span>
+    <div class="section-line"></div>
+    <h2 class="section-title" data-fr="Travaillons Ensemble" data-en="Let's Work Together">Travaillons Ensemble</h2>
+  </div>
+  <div class="contact-inner">
+    <div class="reveal">
+      <div class="contact-tagline">
+        <span data-fr="Auditeur IT" data-en="IT Auditor">Auditeur IT</span><br>
+        <span data-fr="à la recherche d'un" data-en="looking for a">à la recherche d'un</span><br>
+        <span class="contact-tagline-hl" data-fr="nouveau défi." data-en="new challenge.">nouveau défi.</span>
+      </div>
+      <p class="contact-sub"
+        data-fr="Passionné par la gouvernance IT, les risques et la cybersécurité, je cherche une équipe où la rigueur analytique et l'amélioration continue sont au cœur du métier."
+        data-en="Passionate about IT governance, risk management and cybersecurity, I am looking for a team where analytical rigour and continuous improvement are at the core of the work.">
+        Passionné par la gouvernance IT, les risques et la cybersécurité, je cherche une équipe où la rigueur analytique et l'amélioration continue sont au cœur du métier.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:amineoualla481@gmail.com" class="contact-link">
+          <div><div class="contact-link-label">Email</div><div>amineoualla481@gmail.com</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="https://linkedin.com/in/amineoualla2001" target="_blank" class="contact-link">
+          <div><div class="contact-link-label">LinkedIn</div><div>linkedin.com/in/amineoualla2001</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <a href="https://github.com/Amine-oualla/it-audit-insurance-portfolio" target="_blank" class="contact-link">
+          <div><div class="contact-link-label">GitHub Portfolio</div><div>it-audit-insurance-portfolio</div></div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+      </div>
+      <div>
+        <div class="contact-info-item"><div class="contact-info-icon">📞</div><div><div class="contact-info-label" data-fr="Téléphone" data-en="Phone">Téléphone</div><div class="contact-info-value">07 51 17 89 61</div></div></div>
+        <div class="contact-info-item"><div class="contact-info-icon">📍</div><div><div class="contact-info-label" data-fr="Localisation" data-en="Location">Localisation</div><div class="contact-info-value" data-fr="Saint-Germain-en-Laye · Île-de-France" data-en="Saint-Germain-en-Laye · Greater Paris">Saint-Germain-en-Laye · Île-de-France</div></div></div>
+        <div class="contact-info-item"><div class="contact-info-icon">🌍</div><div><div class="contact-info-label" data-fr="Mobilité" data-en="Mobility">Mobilité</div><div class="contact-info-value">France · Spain · Germany · Italy</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">AO</div>
+  <div data-fr="Amine Oualla · Auditeur / Inspecteur IT" data-en="Amine Oualla · IT Auditor / IT Inspector">Amine Oualla · Auditeur / Inspecteur IT</div>
+  <div class="footer-links">
+    <a href="mailto:amineoualla481@gmail.com">Email</a>
+    <a href="https://linkedin.com/in/amineoualla2001" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Amine-oualla/it-audit-insurance-portfolio" target="_blank">GitHub</a>
+  </div>
+  <div>© 2026</div>
+</footer>
+
+<button id="back-to-top" aria-label="Retour en haut" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// HAMBURGER
+const navBtn = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+navBtn.addEventListener('click', () => { navBtn.classList.toggle('open'); mobileMenu.classList.toggle('open'); });
+function closeMenu() { navBtn.classList.remove('open'); mobileMenu.classList.remove('open'); }
+
+// DARK MODE
+const themeBtn = document.getElementById('themeToggle');
+const html = document.documentElement;
+const savedTheme = localStorage.getItem('theme-ao') || 'light';
+html.setAttribute('data-theme', savedTheme);
+themeBtn.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+themeBtn.addEventListener('click', () => {
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme-ao', next);
+  themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
+});
+
+// LANGUAGE TOGGLE
+const langBtn   = document.getElementById('langToggle');
+const langLabel = document.getElementById('langLabel');
+let currentLang = localStorage.getItem('lang-ao') || 'fr';
+
+function applyLang(lang) {
+  currentLang = lang;
+  html.setAttribute('data-lang', lang);
+  html.setAttribute('lang', lang);
+  localStorage.setItem('lang-ao', lang);
+  // Update button: show the OTHER language you can switch to
+  if (lang === 'en') {
+    langBtn.querySelector('.flag').textContent = '🇫🇷';
+    langLabel.textContent = 'FR';
+  } else {
+    langBtn.querySelector('.flag').textContent = '🇬🇧';
+    langLabel.textContent = 'EN';
+  }
+  // Translate all tagged elements
+  document.querySelectorAll('[data-fr][data-en]').forEach(el => {
+    el.innerHTML = el.getAttribute('data-' + lang);
+  });
+}
+
+applyLang(currentLang); // apply on load
+langBtn.addEventListener('click', () => applyLang(currentLang === 'fr' ? 'en' : 'fr'));
+
+// SCROLL PROGRESS + BACK TO TOP
+const progressBar = document.getElementById('scroll-progress');
+window.addEventListener('scroll', () => {
+  const pct = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+  progressBar.style.width = pct + '%';
+  const btt = document.getElementById('back-to-top');
+  window.scrollY > 400 ? btt.classList.add('visible') : btt.classList.remove('visible');
+});
+
+// ACTIVE NAV
+document.querySelectorAll('section[id]').forEach(s => {
+  new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        document.querySelectorAll('.nav-links a').forEach(l => l.classList.remove('active'));
+        const a = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+        if (a) a.classList.add('active');
+      }
+    });
+  }, { threshold: 0.4 }).observe(s);
+});
+
+// SCROLL REVEAL + SKILL BARS
+const ro = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      e.target.querySelectorAll('.skill-bar-fill').forEach(b => {
+        setTimeout(() => { b.style.width = b.getAttribute('data-width') + '%'; }, 100);
+      });
+      ro.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+document.querySelectorAll('.skill-bar-fill').forEach(b => {
+  new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) setTimeout(() => { e.target.style.width = e.target.getAttribute('data-width') + '%'; }, 100);
+    });
+  }, { threshold: 0.3 }).observe(b);
+});
+</script>
+</body>
+</html>
